@@ -1,0 +1,70 @@
+body{
+    background-color: darkturquoise;
+}
+body{
+    border:solid #fffd9ab0;
+border-width: 10px;
+}
+
+.item img{
+    border:solid #DDD32C;
+}
+
+.menu{
+margin-right: 30px;
+background-color: lemonchiffon;
+opacity:1
+}
+
+.menu a{
+    margin-left: 20px;
+}
+.header{
+background-image: url('brick.jpg');
+display: flex;
+justify-content: space-between;
+}
+
+.footer{
+    background-image: url('brick.jpg');
+
+}
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+justify-content: space-evenly;
+}
+.footer{display:flex;
+    justify-content: flex-end;
+}
+p,h2{
+    text-align: center;
+    color:rgb(87, 253, 203)
+}
+h1{
+    color: #FFFFFF;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+padding-left: 10px;
+padding-right: 50px;
+}
+.item :hover img{
+    opacity:0.01
+}
+.item :hover p{
+    opacity: 0.01
+}
+a:link{
+    color :rgb(29, 29, 143)
+   
+}
+a:visited{
+    color:#972020
+}
+a:active{
+    color:linen
+}
+a:hover{
+    color: sandybrown;
+}
